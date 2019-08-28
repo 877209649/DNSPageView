@@ -56,7 +56,7 @@ open class DNSPageTitleView: UIView {
     /// 点击标题时调用
     public var clickHandler: TitleClickHandler?
     
-    public var currentIndex: Int
+    @objc dynamic public var currentIndex: Int
     
     private (set) public lazy var titleLabels: [UILabel] = [UILabel]()
     
